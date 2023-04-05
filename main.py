@@ -4,6 +4,7 @@ import torch
 import sys
 import numpy as np
 import random
+import numpy
 
 from exp.exp_GIF import ExpGraphInfluenceFunction
 from exp.exp_attack import ExpAttack
