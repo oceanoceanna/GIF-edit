@@ -5,7 +5,7 @@
       <paths name="dingcl@114.214.164.244:36000">
         <serverdata>
           <mappings>
-            <mapping deploy="/data/dingcl/example" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/data/dingcl/example" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
