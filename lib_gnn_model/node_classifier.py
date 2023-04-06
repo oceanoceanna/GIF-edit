@@ -42,7 +42,7 @@ class NodeClassifier(GNNBase):
 
         if self.target_model == 'SAGE':
             self.lr, self.decay = 0.01, 0.001
-            return SageNet(num_feats, 256, num_classes)
+            # return SageNet(num_feats, 256, num_classes)
         elif self.target_model == 'GAT':
             self.lr, self.decay = 0.01, 0.001
             return GATNet(num_feats, num_classes)
